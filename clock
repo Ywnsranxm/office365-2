@@ -1,0 +1,8 @@
+import time
+
+print("Welcome to the focus clock!")
+print("Press Ctrl+C to stop the timer.")
+
+while True:
+    print(f"Time elapsed: {int(time.time() - time.mktime(time.localtime()))} seconds")
+    time.sleep(1)
